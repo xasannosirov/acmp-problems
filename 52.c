@@ -9,13 +9,11 @@ int main(){
         b+=a%10;
         a/=10;
     }
-    // printf("b= %d ", b);
  
     for(int i = 0; i < 3; i++){
         c+=a%10;
         a/=10;
     }
-    // printf("c= %d ", c);
  
     if(b==c){
         printf("YES");
