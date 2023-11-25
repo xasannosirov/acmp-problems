@@ -1,15 +1,15 @@
 #include <stdio.h>
- 
-int main(){
- 
-    long long int a, b, c, t;
-    scanf("%lld %lld %lld %lld",&a, &b, &c, &t);
- 
+
+int main()
+{
+    int a, b, c, t;
+    scanf("%d %d %d %d",&a, &b, &c, &t);
+
     if (a < t){
-        printf("%lld",(a*b)+((t-a)*c));
+        printf("%d",(a*b)+((t-a)*c));
     }else{
-        printf("%lld",t*b);
+        printf("%d",t*b);
     }
- 
+
     return 0;
 }
